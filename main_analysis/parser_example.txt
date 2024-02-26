@@ -1,0 +1,8 @@
+python parser.py --get_busstop_info busstops.txt
+python parser.py --get_busstop_loc_info busstops.txt busstoploc.txt
+python parser.py --get_bus_info morning.txt 360
+python parser.py --get_bus_schedule busstops.txt busschedule.txt
+python parser.py --get_speeding_info morning.txt morning_speed_lines.csv morning_speed_loc.csv morning_speed.html
+python parser.py --get_speeding_info rushhours.txt rushhours_speed_lines.csv rushhours_speed_loc.csv rushhours_speed.html
+python parser.py --buses_on_time morning.txt busschedule.txt busstoploc.txt morning_late_lines.csv morning_late_bstops.csv morning_late.html
+python parser.py --buses_on_time rushhours.txt busschedule.txt busstoploc.txt rushhours_late_lines.csv rushhours_late_bstops.csv rushhours_late.html
